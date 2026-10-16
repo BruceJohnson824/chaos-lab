@@ -6,8 +6,8 @@ import { gemmaConfigured, interpretExperiment } from "./gemma.ts";
 
 loadEnvFile();
 
-const port = Number(process.env.CHAOS_CORE_PORT || 8787);
-const host = process.env.CHAOS_CORE_HOST || "127.0.0.1";
+const port = Number(process.env.PORT || process.env.CHAOS_CORE_PORT || 3000);
+const host = "0.0.0.0";
 const distDir = join(process.cwd(), "dist");
 const hits = new Map<string, number[]>();
 
