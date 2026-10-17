@@ -1,5 +1,5 @@
 # CHAOS.EXE | The Chaos Lab
-
+Hello
 CHAOS.EXE is an open-source experiment sandbox for a university Halloween hackathon. Pick Fire, Water, Ice, or Electricity, paint them onto a shared canvas, and discover what happens when they meet. The physics are playful on purpose: this is a visual laboratory, not a chemistry model.
 
 There are no accounts or payments. Painting and reactions run entirely in the browser. CHAOS CORE, the optional experiment interpreter, calls Google's hosted Gemma model from a small Node server. The browser never sees the API key.
